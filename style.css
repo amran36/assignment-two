@@ -9,3 +9,125 @@ body{
     margin: 0;
     padding: 0;
 }
+
+img{
+    max-width: 100%;
+}
+.section--padding{
+    padding: 80px;
+}
+
+/*--------------------------------
+    # Menu Css
+---------------------------------*/
+.btn {
+    color: #fff;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.header--area nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header--area nav ul li a {display: inline-block;padding: 10px 24px;}
+
+.header--area {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    left: 5%;
+    padding-top: 40px;
+}
+
+.header--area nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__button i {
+    margin-right: 8px;
+}
+
+/*--------------------------------
+    # Hero area Css
+---------------------------------*/
+.hero--area {
+    background: #2D25A0;
+    position: relative;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat( 2, 1fr );
+    width: 1170px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.hero__title h1 {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 27px;
+}
+
+.hero__title .btn i {
+    margin-left: 8px;
+}
+
+.hero__thumbnail {
+    margin-top: 67px;
+}
+
+.hero__title {
+    width: 485px;
+}
+
+/*--------------------------------
+    # Players area Css
+---------------------------------*/
+.players__container {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr );
+    grid-column-gap: 30px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.player img {
+    height: 320px;
+}
+
+.player h3 {
+    font-size: 28px;
+    color: #18191F;
+    line-height: 40px;
+    margin: 10px 0 10px 0;
+    text-transform: capitalize;
+}
+
+.player p {
+    margin: 0;
+}
+
+.player {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin: 30px 0;
+}
+
+/*--------------------------------
+    # Players area Css
+---------------------------------*/
