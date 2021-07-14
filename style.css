@@ -211,8 +211,13 @@ img{
 .sponsor-grid .sponsors img {
     width: 25%;
     max-width: 170px;
+    filter: grayscale(1);
+    transition: .2s ease;
 }
 
+.sponsor-grid .sponsors:hover img{
+    filter: grayscale(0);
+}
 
 /*--------------------------------
     #Responsive CSS
