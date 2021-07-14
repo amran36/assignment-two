@@ -1,4 +1,11 @@
+/*--------------------------------
+    # Google fonts
+---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+/*--------------------------------
+    # CSS Presets
+---------------------------------*/
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -14,7 +21,13 @@ img{
     max-width: 100%;
 }
 .section--padding{
-    padding: 80px;
+    padding: 80px 0;
+}
+
+.container{
+    display: grid;
+    width: 1170px;
+    margin: 0 auto;
 }
 
 /*--------------------------------
@@ -99,11 +112,8 @@ img{
     # Players area Css
 ---------------------------------*/
 .players__container {
-    display: grid;
     grid-template-columns: repeat( 3, 1fr );
     grid-column-gap: 30px;
-    width: 1170px;
-    margin: 0 auto;
 }
 
 .player img {
@@ -129,5 +139,60 @@ img{
 }
 
 /*--------------------------------
-    # Players area Css
+    # Highlights area Css
 ---------------------------------*/
+.highlight-grid {
+    grid-template-columns: repeat( 2, 1fr );
+    align-items: center;
+}
+
+.highlight__content h1 {
+    color: #0A0826;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 0 20px;
+}
+
+.highlight__content p {
+    margin-bottom: 30px;
+}
+
+.highlight__content {
+    width: 470px;
+}
+
+/*--------------------------------
+    # Footer area Css
+---------------------------------*/
+
+/*--------------------------------
+    # Footer area Css
+---------------------------------*/
+footer.footer--area .container {
+    /* grid-template-columns: 1fr; */
+    /* margin: 0 auto; */
+    /* text-align: center; */
+}
+
+footer.footer--area img {
+    max-width: 480px;
+}
+
+footer.footer--area {
+    text-align: center;
+    color: #222;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 80px 0 50px 0;
+}
+
+.footer-icon a {
+    width: 32px;
+    height: 32px;
+    background: #E7E7E8;
+    display: inline-block;
+    color: #969BAB;
+    border-radius: 50%;
+    margin-right: 14px;
+    font-size: 14px;
+}
